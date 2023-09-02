@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = "5398983539:AAGV3V2O7xNN23-KqTIkBpstTSXY_TOpHEk"
+    BOT_TOKEN = "5398983539:AAGknpaBXHCTxUfs9rkN6bFJpL5HN1bZe8I"
 
     API_ID = 5986296
 
@@ -48,7 +48,7 @@ class Config(object):
 
     SESSION_NAME = "MyFirstQueue_Bot"
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
+    LOG_CHANNEL = -1001566282612
 
     LOGGER = logging
 
