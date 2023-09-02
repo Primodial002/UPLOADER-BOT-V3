@@ -11,13 +11,13 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = "5371407126:AAGZW4aUbyKo_ZWBGq7ejQB6y4a5Z8_a53Y"
 
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = 15682957
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = "00b8b3714cee0ba2941091b7cc5578e7"
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1098983599").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
@@ -43,18 +43,18 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
+    DEF_WATER_MARK_FILE = "op"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://nsfwleech:nsfwleech@cluster0.in2msxb.mongodb.net/?retryWrites=true&w=majority")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "UrlUploaderProh_bot")
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = 1098983599
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UrlUploaderProh_bot")
