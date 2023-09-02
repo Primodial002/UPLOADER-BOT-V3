@@ -45,7 +45,7 @@ class Config(object):
 
     DEF_WATER_MARK_FILE = "op"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://nsfwleech:nsfwleech@cluster0.in2msxb.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = "mongodb+srv://telugumovies:telugumovies@cluster0.npql0xh.mongodb.net/?retryWrites=true&w=majority"
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "UrlUploaderProh_bot")
 
