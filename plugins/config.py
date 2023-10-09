@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = "5398983539:AAGknpaBXHCTxUfs9rkN6bFJpL5HN1bZe8I"
+    BOT_TOKEN = "5398983539:AAEp3HnhnzwgxvA8YMkgRXajVFjOmZgeVyc"
 
     API_ID = 5986296
 
